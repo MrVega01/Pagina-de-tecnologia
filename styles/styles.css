@@ -1,0 +1,50 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Vollkorn', serif;
+}
+.table{
+  display: table;
+  height: 100%
+}
+.tableCell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.tituloPortada, .tituloOferta{
+  font-family: 'Libre Baskerville', serif;
+}
+.buttonColor{
+  color: blue;
+}
+.curvatura{
+  width: 150%;
+  height: 150px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin-left: -25%;
+}
+.ofertas{
+  margin-top: -100px;
+}
+.scale {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.scale:hover {
+  transform: scale(1.05);
+}
+.colorContacto {
+  color: #949699;
+}
+.colorContacto:hover{
+  color: #fff;
+}
+/*RESPONSIVE*/
+@media (max-width: 768px){
+  .tituloPortada{
+    margin-top: 1em;
+  }
+  .marginNav {
+    margin-left: 1.5em;
+  }
+}
